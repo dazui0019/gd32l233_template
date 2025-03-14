@@ -20,8 +20,8 @@ int main(void)
 
     /* configure systick */
     systick_config();
-		/* 启动BasicOS */
-		basic_os_init(stack, sizeof(stack));
+    /* 启动BasicOS */
+    basic_os_init(stack, sizeof(stack));
     basic_os_run();
 
     return 0;
